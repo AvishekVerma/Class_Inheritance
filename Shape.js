@@ -1,7 +1,8 @@
  
  
  class Shape {
-    constructor() {      
+    constructor() {  
+        this.color = "blue";    
       
     }
     
@@ -13,11 +14,7 @@
   drawShape() {
 
   } 
-
-
-  property_color() {
-
-  }
+  
   }
 
   module.exports = Shape;

@@ -1,4 +1,4 @@
-import { Shape } from "./Shape";
+var Shape = require ('./Shape' );
 
 export class Circle extends Shape {
     constructor(radius) {
